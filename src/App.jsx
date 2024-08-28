@@ -2,15 +2,15 @@ import { useState } from "react";
 import { MdClose } from "react-icons/md";
 
 const message=[
-  "Welcome!!!!❤️",
-  "How are you??🥰",
+  "Hello Sadhana!!!!❤️",
+  "I love you so much🥰",
   "Take Care, Stay Safe♍"
 ]
 
 
 function App() {
   const [step,setStep] = useState(1);
-  const [isOpen,setIsOpen]= useState(true);
+  const [isOpen,setIsOpen]= useState(false);
 
   function handleDecrease(){
     if(step>1){
