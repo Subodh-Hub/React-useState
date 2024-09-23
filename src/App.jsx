@@ -3,7 +3,7 @@ import { MdClose } from "react-icons/md";
 
 const message=[
   "Hello Sadhana!!!!❤️",
-  "I love you so much🥰",
+  "K xa khabar!!!!🥰",
   "Take Care, Stay Safe♍"
 ]
 
@@ -34,7 +34,7 @@ function App() {
       {isOpen&&(
       <div className="container">
 
-        <p className="main">Message from Subodh</p>
+        <p className="main">Message from Milan</p>
         <div className="numbers">
           <div className={step>=1?"active":""}>1</div>
           <div className={step>=2?"active":""}>2</div>
